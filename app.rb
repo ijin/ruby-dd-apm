@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'ddtrace'
+require 'ddtrace/contrib/sinatra/tracer'
 
 set :bind, '0.0.0.0'
 
